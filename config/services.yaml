@@ -1,0 +1,40 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Zarzadzanie domem:
+    - HomeAssistant:
+        href: http://homeassistant.local/
+        description: 
+        ping: http://homeassistant.local/
+        icon: mdi-home-assistant
+    - PiHole:
+        href: http://pihole.local/admin/
+        #description:
+        icon: mdi-pi-hole
+    - Unifi:
+        href: https://unifi.local:8443/
+        #description:
+        icon: mdi-access-point 
+    - MotionEye:
+        href: http://cam.local:8765/
+        #description: 
+        icon: mdi-cctv
+- Dokumenty:
+    - Dokumenty elektroniczne:
+        href: http://paperless.local/
+        description: PaperlessNGX
+        icon: mdi-file-document-check-outline
+    - Zdjecia:
+        href: http://photo.local/
+        description: PhotoPrism
+        icon: mdi-image-multiple
+    - OpenMediaVault:
+        href: http://omv.local/
+        description: Dysk sieciowy
+        icon: mdi-nas
+
+- W przyszlosci...:
+    - Homepage:
+        href: http://home.local/
+        description: Homepage is 😎

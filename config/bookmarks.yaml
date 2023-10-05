@@ -1,0 +1,32 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- Przydatne:
+    - Microsoft 365:
+        - abbr: MS
+          href: https://office.com/
+#          icon: mdi-github
+
+- Developer:
+    - Github:
+        - abbr: GH
+          href: https://github.com/
+          icon: mdi-github
+
+- Social:
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/
+          icon: mdi-reddit
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+          icon: mdi-youtube
+    - Netflix:
+        - abbr: NT
+          href: https://netflix.com/
+          icon: mdi-netflix
+
