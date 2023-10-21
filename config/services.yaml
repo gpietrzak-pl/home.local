@@ -12,27 +12,33 @@
         href: http://pihole.local/admin/
         #description:
         icon: mdi-pi-hole
+        ping: http://pihole.local/admin/
     - Unifi:
         href: https://unifi.local:8443/
         #description:
-        icon: mdi-access-point 
+        icon: mdi-access-point
+        ping: https://unifi.local:8443/
     - MotionEye:
         href: http://cam.local:8765/
         #description: 
         icon: mdi-cctv
+        ping: http://cam.local:8765/
 - Dokumenty:
     - Dokumenty elektroniczne:
         href: http://paperless.local/
         description: PaperlessNGX
-        icon: mdi-file-document-check-outline
+        icon: mdi-file-document-check-outline 
+        ping: http://paperless.local/
     - Zdjecia:
         href: http://photo.local/
         description: PhotoPrism
-        icon: mdi-image-multiple
+        icon: mdi-image-multiple 
+        ping: http://photo.local/
     - OpenMediaVault:
         href: http://omv.local/
         description: Dysk sieciowy
-        icon: mdi-nas
+        icon: mdi-nas 
+        ping: http://omv.local/
 
 - W przyszlosci...:
     - Homepage:
